@@ -2,8 +2,10 @@
 
 /**
  * main - function of the program and it prints using puts function
+ * 
+ * Description: This programs prints an output with puts instead of printf
  *
- * return: Will Always return 0
+ * return: Will Always 0(Success)
  */
 int main(void)
 {
