@@ -3,7 +3,8 @@
 /**
  * main - function of the program and it prints using puts function
  *
- * return: Always 0
+ * return: Will Always 0
+ *
  */
 int main(void)
 {
