@@ -3,7 +3,7 @@
 /**
  * main - this is the primary function
  *
- * description - prints numbers from 0 -9 
+ * description - prints numbers from 0 - 9
  *
  * Return: should be 0
  */
