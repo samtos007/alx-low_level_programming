@@ -12,9 +12,9 @@ int main(void)
 {
 	int a;
 
-	a = 0; /* Variable assignment */
+	a = 48; /* Variable assignment */
 
-	while (a < 10)
+	while (a < 58)
 	{
 		putchar(a);
 		a++;
