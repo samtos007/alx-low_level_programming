@@ -18,8 +18,11 @@ int main(void)
 	while (a < 58)
 	{
 		putchar(a);
+		if (a != 57)
+		{
 		putchar(b);
 		putchar(c);
+		}
 		a++;
 	}
 	putchar(10);
