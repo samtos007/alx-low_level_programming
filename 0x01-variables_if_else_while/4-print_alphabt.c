@@ -14,11 +14,15 @@ int main(void)
 
 	a = 97; /* variable assignment for ASCII code for 'a' */
 
-	while ((a < 123) && (a != 113) && (a != 101)) /* While loop conditn */
+	while (a < 123) /* While loop conditn */
 	{
-		putchar(a); /* Print the values of 'a' */
+		if (a != 101 && a != 113)
+		{
+			putchar(a);
+		}
 		a++; /* Increment */
 	}
+	putchar(10); /* Inserts a new line */
 
 	return (0); /* Final return value  */
 }
