@@ -20,4 +20,4 @@ int main(void)
 	}
 	printf("%d\n", totl);
 	return (0);
-
+}
