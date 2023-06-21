@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower - the program prints 1 or 0 depending on input
- * @c: frst parameter
+ * _islower - this prints 1 or 0 depending on input
+ * @i: frst parameter
  *
  * Description: prints all lowercase letters
  * Return: Always(0).
