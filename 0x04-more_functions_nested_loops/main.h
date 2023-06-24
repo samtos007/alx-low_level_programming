@@ -3,7 +3,7 @@
 
 int _isupper(int c);
 int _isdigit(int c);
-int mul(int a, int b);
+int mul(int i, int j);
 void print_numbers(void);
 int _putchar(char c);
 void print_most_numbers(void);
