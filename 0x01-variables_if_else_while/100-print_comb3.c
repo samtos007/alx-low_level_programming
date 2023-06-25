@@ -28,9 +28,9 @@ int main(void)
 				putchar(44); /*ASCII for space */
 				putchar(32); /*ASCII for comma*/
 			}
-			j++;
+			b++;
 		}
-		i++;
+		a++;
 	}
 	putchar(10);  /* ASCII for mew line*/
 
