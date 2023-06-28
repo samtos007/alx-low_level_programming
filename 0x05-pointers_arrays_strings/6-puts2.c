@@ -7,15 +7,19 @@
  *
  * Return: returns nothing or void
  */
-
 void puts2(char *str)
 {
-	int i = 0;
+	int count = 0;
 
-	while (str[i] != '\0')
+	while (count >= 0)
 	{
-		printf("%c", str[i]);
-		i += 1;
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
 	}
-	printf("\n");
 }
