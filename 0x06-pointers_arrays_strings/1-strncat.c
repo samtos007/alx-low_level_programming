@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _strncat - this function conccatenates two strings
