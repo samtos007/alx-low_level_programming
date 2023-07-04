@@ -4,7 +4,7 @@
  * @s: memory area or pointer
  * @b: constant byte.
  * @n: filled bytes.
- * Return: returns 
+ * Return: returns
  */
 char *_memset(char *s, char b, unsigned int n)
 {
